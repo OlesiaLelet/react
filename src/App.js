@@ -1,6 +1,6 @@
 
 import './App.css';
-import Component1 from './components/component-1/Component1';
+import Post from './components/component-1/Post';
 import img from "./icons/verified.png";
 
 
@@ -12,7 +12,7 @@ const RAY_IMAGE = "https://specials-images.forbesimg.com/imageserve/5e63b3c8e1e6
 function App() {
   return (
     <div className="content">
-      <Component1 name="Anakin Skywalker" avatar={ANAKIN_IMAGE} nickname="@dart_vader" icon_verify={img} date="26 лют." text="WTF? Who is Ray? Why is she Skywalker? Luke...?" photo={RAY_IMAGE} />
+      <Post name="Anakin Skywalker" avatar={ANAKIN_IMAGE} nickname="@dart_vader" icon_verify={img} date="26 лют." text="WTF? Who is Ray? Why is she Skywalker? Luke...?" photo={RAY_IMAGE} />
 
     </div>
     

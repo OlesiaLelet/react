@@ -6,24 +6,24 @@
     display: flex;
     align-items: center;
 }
-.post__user--avatar {
+.user__avatar {
     border-radius: 100%;
     height: 4em;
     width: 4em;
     padding: 5px;
 
 }
-.post__user--name {
+.user__name {
     font-weight: bold;
     padding: 0px 5px;
 }
-.post__user--sign {
+.user__sign {
     width: 2em;
     height: 2em;
     padding: 0px 5px;
 
 }
-.post__user--nickname, .post__user--date{
+.user__nickname, .user__date{
     color: grey;
     font-weight: bolder;
     padding: 0px 5px;
