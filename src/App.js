@@ -1,6 +1,6 @@
 
 import './App.css';
-import Post from './components/component-1/Post';
+import Post from './components/Post/Post';
 import img from "./icons/verified.png";
 
 

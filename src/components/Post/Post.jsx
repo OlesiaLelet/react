@@ -32,12 +32,12 @@ const Component1 = ({name, avatar, photo, nickname, icon_verify, date, text}) =>
             </div>
 
             <div className="post__details--likes">
-              <img className="icon" src={img3} alt='coments__icon'/>
+              <img className="icon" src={img3} alt='like__icon'/>
               <span className='likes__amount'>{likesAmount}</span>
             </div>
 
             <div className="post__details--download">
-              <img className="icon" src={img4} alt='coments__icon'/>
+              <img className="icon" src={img4} alt='download__icon'/>
             </div>
       </div>
     </div>
